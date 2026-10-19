@@ -1,0 +1,12 @@
+[project]
+name = "alphadev-sorting"
+version = "0.1.0"
+description = "Single-player AlphaZero (Mini-AlphaDev) for discovering branchless swap_if_greater sorting programs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0.0",
+    "pygame-ce>=2.5.0",
+    "torch>=2.4.0",
+    "tqdm>=4.66.0",
+]
